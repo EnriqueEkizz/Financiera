@@ -7,6 +7,9 @@ namespace Financiera.Dominio
 {
     public class Cliente
     {
+
+        //lucero
+        //que es esto 
         public int CodigoCliente{ get; set; }
 
         public string NombreCliente { get; set; }
