@@ -6,11 +6,13 @@ using System.Text;
 namespace Financiera.Dominio
 {
     /// <summary>
-    /// la la la la la
+    /// la la la la laSADASDF
     /// </summary>
     public class Cliente
     {
-
+        /// <summary>
+        /// andrea comento
+        /// </summary>
         //lucero
         //que es esto 
         //lucero
