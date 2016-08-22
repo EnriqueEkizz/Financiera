@@ -10,6 +10,7 @@ namespace Financiera.Dominio
 
         //lucero
         //que es esto 
+        //lucero
         public int CodigoCliente{ get; set; }
 
         public string NombreCliente { get; set; }
