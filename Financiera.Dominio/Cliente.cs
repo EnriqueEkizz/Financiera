@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Financiera.Dominio
 {
+    /// <summary>
+    /// la la la la la
+    /// </summary>
     public class Cliente
     {
 
@@ -25,7 +28,7 @@ namespace Financiera.Dominio
                 TipoCliente = aby_tipo,
             };
         }
-
+        
         public void ModificarNombre(string as_nombre)
         {
             NombreCliente = as_nombre;
