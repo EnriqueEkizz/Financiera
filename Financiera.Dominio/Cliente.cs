@@ -16,6 +16,7 @@ namespace Financiera.Dominio
         //lucero
         //que es esto 
         //lucero
+        //al fin !!
 
         public int CodigoCliente{ get; set; }
 
