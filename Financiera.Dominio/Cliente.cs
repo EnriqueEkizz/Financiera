@@ -21,6 +21,10 @@ namespace Financiera.Dominio
         //al fin !!
         //esto esta dificil
 
+        ///:v cý
+        ///lo logre
+        ///al fin
+
         public int CodigoCliente{ get; set; }
 
         public string NombreCliente { get; set; }
