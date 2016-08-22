@@ -10,7 +10,9 @@ namespace Financiera.Dominio
     /// </summary>
     public class Cliente
     {
-
+        /// <summary>
+        /// andrea comento
+        /// </summary>
         //lucero
         //que es esto 
         //lucero
