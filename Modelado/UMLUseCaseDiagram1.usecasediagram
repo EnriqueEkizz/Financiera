@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1dbfd552-6b78-4d69-bb7b-7cc4f626a41b" name="UMLUseCaseDiagram1" linkedPackageId="4a47583a-f571-440f-b9f4-644a672fd6fa" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="b662407b-cc6f-439e-b105-809fee455584">
+      <profileInstance Id="e0154f4f-fa84-466b-b828-9ff77024d6aa" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f653ca48-bb74-48d3-8418-ddd744638a73">
+      <profileInstance Id="40ef4dda-29cb-4963-90ea-6e8187903c4e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="0576969a-588f-49cf-9c7d-1ae8f9aede7b" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1947c767-9e78-4ab0-8a04-a927ce073c3c" />
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="4a47583a-f571-440f-b9f4-644a672fd6fa" name="Modelado">
+    <elementDefinition Id="94d54943-73b5-416d-870c-fef0607cb55e" />
+  </package>
+</useCaseModelRoot>

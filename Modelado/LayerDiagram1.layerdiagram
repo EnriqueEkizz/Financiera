@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="aa422275-0a94-4be6-bfaf-59d06da566b4" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="38f78cf9-b8fc-405e-bdcd-09b265046bdd" name="Acceso a datos&#xD;&#xA;" />
+    <layer Id="6ab8d978-ceee-4aae-a221-55a2516c9efb" name="Dominio&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="48a90d8b-a3f8-4816-9e4c-b3210d701999" direction="Forward">
+          <layerMoniker Id="38f78cf9-b8fc-405e-bdcd-09b265046bdd" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="05a75a72-9f84-438b-b550-d782cd46e390" name="Distribucion&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="f5803b3c-8263-4295-afdd-5d56ba1e001d" direction="Forward">
+          <layerMoniker Id="6ab8d978-ceee-4aae-a221-55a2516c9efb" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="5b05b6b7-73f7-4b64-b499-2e7080a426f6" direction="Forward">
+          <layerMoniker Id="38f78cf9-b8fc-405e-bdcd-09b265046bdd" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="92fcb2dc-df70-4f2d-b286-9d8234a7e879" name="Modelado&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="dd527b4b-6e9d-444e-a8ee-54e26916f90b" direction="Forward">
+          <layerMoniker Id="38f78cf9-b8fc-405e-bdcd-09b265046bdd" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="627e91a9-0996-4ea2-9b2a-2da5dbc2380f" direction="Forward">
+          <layerMoniker Id="6ab8d978-ceee-4aae-a221-55a2516c9efb" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="f8876042-2054-406f-8623-eda8b40814b7" name="Prueba unitaria" />
+  </layers>
+</layerModel>
