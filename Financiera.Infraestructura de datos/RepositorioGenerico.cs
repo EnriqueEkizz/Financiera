@@ -46,7 +46,7 @@ namespace Financiera.Infraestructura_de_datos
         public bool GuardarCambios()
         {
             io_contexto.SaveChanges();
-            return true;
+            return false;
         }
 
         public IList<T> ObtenerPorExperesion(Expression<Func<T, bool>> ao_llaves = null, string as_incluir = null, byte aby_limite = 0)
