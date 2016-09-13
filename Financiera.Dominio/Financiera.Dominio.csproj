@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="CuentaCorriente.cs" />
+    <Compile Include="IRepositorioGenerico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
