@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Financiera.Dominio
 {
-    interface IRepositorioGenerico<T>
+    public interface IRepositorioGenerico<T>
     {
         T ObtenerPorCodigo(params object[] ao_llaves);
         IQueryable<T> Listar();
