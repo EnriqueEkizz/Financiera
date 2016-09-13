@@ -7,6 +7,7 @@ namespace Financiera.Dominio
 {
     public class CuentaCorriente
     {
+        #region Propiedades
         public int NumeroCuenta
         {
             get
@@ -19,6 +20,12 @@ namespace Financiera.Dominio
             }
         }
 
+        public string CodigoCuenta { get; set; }
+        public int CodigoCliente { get; set; }
+        public decimal SaldoCuenta { get; set; }
+        public DateTime FechaApertura { get; set; }
+        public byte EstadoCuenta { get; set; }
+        public 
         public int Saldo
         {
             get
